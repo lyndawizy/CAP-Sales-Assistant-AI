@@ -66,7 +66,6 @@ with st.form("company_info", clear_on_submit=True):
             value_proposition: {{value_proposition}}
             target_customer: {{target_customer}}
             company_url: {{company_url}}
-            Use this data to guide your analysis.
 
             Generate a comprehensive report that includes the following:
             Create a company strategy - give insights into their priorities, activities and business approaches.
