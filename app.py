@@ -5,7 +5,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.tools.tavily_search import TavilySearchResults
 
 # sidebar
-st.sidebar.title("chats")
+st.sidebar.title("Navigation")
 st.sidebar.checkbox("Display all")
 st.sidebar.slider("Temperature", 0.0, 1.98)
 
@@ -69,13 +69,17 @@ with st.form("company_info", clear_on_submit=True):
             Use this data to guide your analysis.
 
             Generate a comprehensive report that includes the following:
+            Create a company strategy - give insights into their priorities, activities and business approaches.
+            Include a strong pitch strategy for the product
             Assess competitors' online presence and identify potential areas for differentiation.
             Evaluate the product's value proposition and target customer alignment to optimize sales strategies.
-            Identify key competitors and their strengths and weaknesses.
-            Identify key leaders at the prospect company and their relevance
+            Identify key competitors, their strengths and weaknesses - present it in a tabular form.
+            Identify key decision makers at the target company and their relevance
             Propose strategies to increase market penetration and customer acquisition.
             Based on your analysis, provide clear and actionable recommendations to the sales team. These 
             recommendations should be specific, measurable, achievable, relevant, and time-bound (SMART).
+            References: iclude links to sources used in the report.
+            conclude the report with a strong call to action.
             
             """
             
